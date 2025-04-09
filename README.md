@@ -1,12 +1,19 @@
-# React + Vite
+# Weather Dashboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and fully responsive weather application built using React, Tailwind CSS, and the OpenWeatherMap API. Users can search for any city worldwide to view real-time weather conditions and a detailed 5-day forecast, all presented in a beautifully animated and user-friendly interface.
 
-Currently, two official plugins are available:
+## Tech Stack Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React** – JavaScript library for building dynamic user interfaces  
+- **Tailwind CSS** – Utility-first CSS framework for rapid and responsive design  
+- **Framer Motion** – Powerful animation library for seamless UI transitions  
+- **React Icons** – Collection of customizable icons for weather and UI elements  
+- **Vite** – Lightning-fast frontend build tool and development server  
+- **OpenWeatherMap API** – Provides accurate current weather and forecast data  
 
-## Expanding the ESLint configuration
+## Setup Instructions
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository:
+```bash
+git clone https://github.com/your-username/weather-dashboard.git
+cd weather-dashboard
